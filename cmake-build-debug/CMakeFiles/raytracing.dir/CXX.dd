@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\raytracing.dir\core\src\main.cpp.obj: dyndep
+
+build CMakeFiles\raytracing.dir\core\src\ml_core.cpp.obj: dyndep
+

@@ -1,0 +1,22 @@
+# ninja log v6
+9	161	7765636906648166	build.ninja	ab189344508f4adf
+52	921	7765590071347710	CMakeFiles/raytracing.dir/main.cpp.obj.ddi	16d226df7de8e9a0
+928	1027	7765590080109842	CMakeFiles/raytracing.dir/main.cpp.obj.modmap	5d00805ca9e004
+928	1027	7765590080109842	CMakeFiles/raytracing.dir/CXX.dd	5d00805ca9e004
+928	1027	7765590080109842	D:/projects/cpp/raytracing/cmake-build-debug/CMakeFiles/raytracing.dir/CXXModules.json	5d00805ca9e004
+1037	2369	7765590081193383	CMakeFiles/raytracing.dir/main.cpp.obj	7d78cece04f10773
+2369	2783	7765590094515205	raytracing.exe	3679cc8a43311779
+30	437	7721614011846183	CMakeFiles/raytracing.dir/glad/src/glad.c.obj	3275a63c835e97cc
+65	710	7725250794608124	CMakeFiles/raytracing.dir/core/WindowClass.cpp.obj.ddi	83d6b507f14a09bc
+196	229	7725251223885016	CMakeFiles/raytracing.dir/core/WindowClass.cpp.obj.modmap	8c2a33b8bad2df83
+874	2469	7725250802702840	CMakeFiles/raytracing.dir/core/WindowClass.cpp.obj	aee79a52ce5cb583
+6	180	7765636906648166	build.ninja	ab189344508f4adf
+17	236	7765636907503324	CMakeFiles/raytracing.dir/core/src/main.cpp.obj.ddi	f6ea555b68cfbd26
+21	269	7765636907539517	CMakeFiles/raytracing.dir/core/src/ml_core.cpp.obj.ddi	5e0e38e09758b337
+274	333	7765636910065199	CMakeFiles/raytracing.dir/CXX.dd	e27962e50daeaa3d
+274	333	7765636910065199	D:/projects/cpp/raytracing/cmake-build-debug/CMakeFiles/raytracing.dir/CXXModules.json	e27962e50daeaa3d
+274	333	7765636910065199	CMakeFiles/raytracing.dir/core/src/main.cpp.obj.modmap	e27962e50daeaa3d
+274	333	7765636910065199	CMakeFiles/raytracing.dir/core/src/ml_core.cpp.obj.modmap	e27962e50daeaa3d
+340	2086	7765636910731392	CMakeFiles/raytracing.dir/core/src/main.cpp.obj	8712de489ef1d11d
+344	2845	7765636910769437	CMakeFiles/raytracing.dir/core/src/ml_core.cpp.obj	aa140b7b648bb61c
+2846	3208	7765636935792222	raytracing.exe	a6ac2e9fd3614338
