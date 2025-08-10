@@ -3,7 +3,7 @@ project(raytracing)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(ONNXRUNTIME_DIR "D:/projects/cpp/raytracing/onnxruntime-win-x64-1.22.1")
+set(ONNXRUNTIME_DIR "deps/onnxruntime-win-x64-1.22.1")
 
 include_directories(${ONNXRUNTIME_DIR}/include)
 link_directories(${ONNXRUNTIME_DIR}/lib)

@@ -72,7 +72,7 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "D:/projects/cpp/raytracing/onnxruntime-win-x64-1.22.1/include"
+					"path" : "D:/projects/cpp/raytracing/deps/onnxruntime-win-x64-1.22.1/include"
 				}
 			],
 			"language" : "CXX",
@@ -106,7 +106,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:D:\\projects\\cpp\\raytracing\\onnxruntime-win-x64-1.22.1\\lib",
+				"fragment" : "-LIBPATH:D:\\projects\\cpp\\raytracing\\deps\\onnxruntime-win-x64-1.22.1\\lib",
 				"role" : "libraryPath"
 			},
 			{
