@@ -1,14 +1,14 @@
-class SimpleModel(torch.nn.Module):
-    def __init__(self):
-        super(SimpleModel, self).__init__()
-        self.fc1 = torch.nn.Linear(3, 5)
-        self.fc2 = torch.nn.Linear(5, 1)
+import torch
+import torch.nn as nn
+
+class MyModel(nn.Module):
+    def __init__(self, input_dim=3, hidden_dim=16, output_dim=2):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(input_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, output_dim)
+        )
 
     def forward(self, x):
-        x = torch.relu(self.fc1(x))
-        x = self.fc2(x)
-        return x
-
-    def calculate_loss(self, predictions, targets):
-        criterion = torch.nn.MSELoss()
-        return criterion(predictions, targets)
+        return self.net(x)

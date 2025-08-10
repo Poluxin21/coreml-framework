@@ -1,18 +1,15 @@
 import torch
 import torch.onnx
-from models.model import MyModel  # Replace MyModel with your actual model class
+from models.model import MyModel
 import sys
 
 def export_model_to_onnx(model_path, onnx_path, input_size):
-    # Load the trained model
-    model = MyModel()  # Initialize your model
+    model = MyModel()
     model.load_state_dict(torch.load(model_path))
     model.eval()
 
-    # Create a dummy input tensor with the specified input size
     dummy_input = torch.randn(input_size)
 
-    # Export the model to ONNX format
     torch.onnx.export(model, dummy_input, onnx_path, 
                       export_params=True, 
                       opset_version=11, 
